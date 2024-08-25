@@ -5,8 +5,8 @@ from sklearn import linear_model
 app = Flask(__name__)
 
 # Prepare the linear regression model
-height = [[4.0], [5.0], [6.0], [7.0], [8.0], [9.0], [10.0]]
-weight = [8, 10, 12, 14, 16, 18, 20]
+height = [[4.0], [5.0], [6.0], [7.0], [8.0], [9.0], [10.0], [11.0]]
+weight = [8, 10, 12, 14, 16, 18, 20, 22]
 reg = linear_model.LinearRegression()
 reg.fit(height, weight)
 
